@@ -16,14 +16,14 @@ function inflator(torrents) {
     let string = `<div data-v-19b948c8="" data-v-515ea5f2="">
     <h2 data-v-19b948c8="" class="link">
         <a data-v-19b948c8="" class="">Torrents</a> 
-        <a data-v-19b948c8="" class="create">Sort</a><select id="sorter">
+        <select id="sorter" style="margin: 0 15px;">
         <option value="time">Sort: Time - Ascending</option>
         <option value="-time">Sort: Time - Descending</option>
         <option value="seeders">Sort: Seeds - Ascending</option>
         <option value="-seeders">Sort: Seeds - Descending</option>
         <option value="size">Sort: File size - Ascending</option>
         <option value="-size">Sort: File size - Descending</option>
-        </select> <button onclick="sort()">Sort</button>
+        </select> <div onclick="sort()" style="background: rgb(var(--color-blue));border-radius: 4px; color: #fff; margin-bottom: 8px; width: fit-content; padding: 6px 15px; text-align: center; display: inline-block;">Sort</div>
     </h2>`
     for (let i = (10 * pageCount); i < ((10 * pageCount) + endLimitDiscriminator()); i++) {
         string += `<div data-v-19b948c8="" class="threads"><div data-v-19b948c8="" class="thread-wrap limit">

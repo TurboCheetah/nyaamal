@@ -31,7 +31,7 @@ function inflator(torrents) {
             <a data-v-70ae1ba4="" href="${torrents[i].link}" class="title">${torrents[i].title}</a>
         <div data-v-70ae1ba4="" class="footer"> 
             <div data-v-70ae1ba4="" class="name"> 
-                <a data-v-70ae1ba4="" style="position: absolute;left: 20px" href="/forum/thread/30906/comment/848822" class="">${torrents[i].time} | ${torrents[i].size}</a>
+                <span data-v-70ae1ba4="" style="position: absolute;left: 20px;color: inherit" >${torrents[i].time} | ${torrents[i].size}</span>
         </div> 
         <div data-v-70ae1ba4="" class="categories">
             <span data-v-51e37344="" data-v-70ae1ba4="">
